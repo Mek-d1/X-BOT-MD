@@ -9,6 +9,7 @@
     "restart": "pm2 restart X-BOT-MD"
   },
 "dependencies": {
+        "@whiskeysockets/baileys": "6.6.0",
         "@adiwajshing/keyed-db": "^0.2.4",
         "@black-king/temp-mail-gen": "1.0.1",
         "@blackamda/song_video_dl": "1.1.0",
@@ -29,7 +30,6 @@
         "@tobyg74/tiktok-api-dl": "1.0.13",
         "@dark-yasiya/yt-dl.js":"latest", 
         "@vitalets/google-translate-api": "9.2.0",
-        "@whiskeysockets/baileys": "6.6.0",
         "api-dylux": "latest",
         "aptoide-scraper": "1.0.1",
         "awesome-phonenumber": "7.2.0",
