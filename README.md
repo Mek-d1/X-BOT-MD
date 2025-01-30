@@ -283,9 +283,6 @@ jobs:
 
 > X-BOT-MD Owner 
 - [David](https://github.com/Mek-d1)
-- Creater and Owner Of KHAN-MD
-> X-BOT-MD Helpers 
-- [Silent-Lover](https://github.com/SILENTLOVER40)
-- For helping in bot errors.
+- Creater and Owner Of X-BOT-MD
   
 ---
