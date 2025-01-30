@@ -29,7 +29,7 @@
         "@tobyg74/tiktok-api-dl": "1.0.13",
         "@dark-yasiya/yt-dl.js":"latest", 
         "@vitalets/google-translate-api": "9.2.0",
-        "@whiskeysockets/baileys": "6.7.9",
+        "@whiskeysockets/baileys": "6.6.0",
         "api-dylux": "latest",
         "aptoide-scraper": "1.0.1",
         "awesome-phonenumber": "7.2.0",
