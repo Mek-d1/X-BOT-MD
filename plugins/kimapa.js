@@ -16,7 +16,7 @@ cmd(
     pattern: 'vidsticker',
     alias: ['vs',],
     desc: 'Convert GIF/Video to a sticker.',
-    category: 'sticker',
+    category: 'convert',
     use: '<reply media or URL>',
     filename: __filename,
   },
