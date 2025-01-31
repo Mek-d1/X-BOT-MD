@@ -28,7 +28,7 @@
         "@sl-code-lords/si-subdl": "1.1.1",
         "@sl-code-lords/wabetainfo": "1.2.0",
         "@tobyg74/tiktok-api-dl": "1.0.13",
-        "@dark-yasiya/yt-dl.js":"latest", 
+         "@dark-yasiya/yt-dl.js": "1.0.5", 
         "@vitalets/google-translate-api": "9.2.0",
         "api-dylux": "latest",
         "aptoide-scraper": "1.0.1",
