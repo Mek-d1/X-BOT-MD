@@ -13,8 +13,9 @@ cmd({
     category: "tools",
     filename: __filename
 },
-async (conn, mek, m, { from, reply, q, text, isCreator, fromMe }) => {
-    if (!isCreator) return reply('This command is only for the bot owner');
+async(conn, mek, m,{from, l, quoted, body, isCmd, command, args, q, isGroup, sender, senderNumber, botNumber2, botNumber, pushname, isMe, isOwner, groupMetadata, groupName, participants, groupAdmins, isBotAdmins, isAdmins, reply}) => {
+    if (!isOwner) return reply('This command is only for the bot owner');
+    if (!botNumber) return reply('This command is only for the bot owner');
     try {
         const command = q?.toLowerCase();
 
