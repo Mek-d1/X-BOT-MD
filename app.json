@@ -73,7 +73,7 @@
     "AUTO_STATUS_REPLY": {
       "description": "Make it true for auto reply msg on status seen.",
       "required": true,
-      "value": "true"
+      "value": "false"
     }, 
 
     "AUTO_STATUS_MSG": {
