@@ -11,7 +11,7 @@
 ---
 
 <p align="center">
-  <a href="https://github.com/Mek-d1"><img title="Developer" src="https://img.shields.io/badge/Author-Jawad%20TechX-FF7604.svg?style=big-square&logo=github" /></a>
+  <a href="https://github.com/Mek-d1"><img title="Developer" src="https://img.shields.io/badge/Author-David%20Tech-FF7604.svg?style=big-square&logo=github" /></a>
 </p>
 
 <div align="center">
@@ -19,7 +19,7 @@
 [![WhatsApp Channel](https://img.shields.io/badge/Join-WhatsApp%20Channel-FF00F8?style=big-square&logo=whatsapp)](https://whatsapp.com/channel/0029VarIiQL5a24AU5ZCVV0G)
 </div>
 
- <p align="center"><img src="https://profile-counter.glitch.me/{KHAN-MD}/count.svg" alt="XdTechPro :: Visitor's Count" old_src="https://profile-counter.glitch.me/{Mek-d1}/count.svg" /></p>
+ <p align="center"><img src="https://profile-counter.glitch.me/{X-BOT-MD}/count.svg" alt="Mek-d1 :: Visitor's Count" old_src="https://profile-counter.glitch.me/{Mek-d1}/count.svg" /></p>
 
 
 <p align="center">
