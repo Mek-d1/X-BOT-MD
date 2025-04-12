@@ -113,7 +113,7 @@ const port = process.env.PORT || 9090;
   console.log('Bot connected to whatsapp ✅')
   
    let up = `*Hi there, welcome user of X-BOT-MD! \ud83d\udc4b\ud83c\udffb* \n\n> Simple, and helpful bot, to make your WhatsApp use more fun and easy easy to use\ud83c\udf8a, meet your buddy X-BOT-MD.\n\n *Thanks for being part of our users \ud83d\udea9* \n\n> Join WhatsApp Channel :- ⤵️\n \nhttps://whatsapp.com/channel/0029VarIiQL5a24AU5ZCVV0G\n\n- *YOUR PREFIX:* = ${prefix}\n\nDont forget to give star to repo ⬇️\n\nhttps://github.com/Mek-d1/X-BOT-MD\n\n> © ᴘᴏᴡᴇʀᴇᴅ ʙʏ ᴅᴀᴠɪᴅx\ud83d\udda4`;
-    conn.sendMessage(conn.user.id, { image: { url: `https://files.catbox.moe/7zfdcq.jpg` }, caption: up })
+    conn.sendMessage(conn.user.id, { image: { url: `https://i.imgur.com/rzPIk3t.jpeg` }, caption: up })
   }
   })
   conn.ev.on('creds.update', saveCreds)
