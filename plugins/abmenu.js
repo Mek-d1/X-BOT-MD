@@ -169,7 +169,7 @@ ${menu.search}
 await conn.sendMessage(
             from,
             {
-                image: { url: `https://i.ibb.co/ZLQdz9k/XmdBot.jpg` },
+                image: { url: `https://files.catbox.moe/c1ji5s.jpg` },
                 caption: madeMenu,
                 contextInfo: {
                     mentionedJid: [m.sender],
