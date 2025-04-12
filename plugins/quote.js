@@ -9,10 +9,10 @@ cmd({
   filename: __filename
 }, async (conn, m, store, { from, reply }) => {
   try {
-    const response = await axios.get("https://api.quotable.io/random");
-    const { content, author } = response.data;
+    const response = await axios.get("https://favqs.com/api/qotd");
+    const { body, author } = response.data;
 
-    const message = `💬 *"${content}"*\n- ${author}\n\n> *QUOTES BY X BOT MD*`;
+    const message = `💬 *"${body}"*\n- ${author}\n\n> *QUOTES BY X BOT MD*`;
     reply(message);
   } catch (error) {
     console.error("Error fetching quote:", error);
