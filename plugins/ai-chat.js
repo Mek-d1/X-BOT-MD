@@ -31,8 +31,8 @@ async (conn, mek, m, { from, args, q, reply, react }) => {
 });
 
 cmd({
-    pattern: "openai",
-    alias: ["chatgpt"],
+    pattern: "aayo",
+    alias: ["aayon"],
     desc: "Chat with OpenAI",
     category: "ai",
     react: "🧠",
@@ -40,46 +40,46 @@ cmd({
 },
 async (conn, mek, m, { from, args, q, reply, react }) => {
     try {
-        if (!q) return reply("Please provide a message for OpenAI.\nExample: `.openai Hello`");
+        if (!q) return reply("Please provide a message for aayo.\nExample: `.aayo Who's naruto`");
 
-        const apiUrl = `https://vapis.my.id/api/openai?q=${encodeURIComponent(q)}`;
+        const apiUrl = `https://bk9.fun/ai/Aoyo?q=${encodeURIComponent(q)}`;
         const { data } = await axios.get(apiUrl);
 
-        if (!data || !data.result) {
+        if (!data || !data.BK9) {
             await react("❌");
-            return reply("OpenAI failed to respond. Please try again later.");
+            return reply("aayo failed to respond. Please try again later.");
         }
 
-        await reply(`🧠 *OpenAI Response:*\n\n${data.result}`);
+        await reply(`🧠 *aayo Response:*\n\n${data.BK9}`);
         await react("✅");
     } catch (e) {
         console.error("Error in OpenAI command:", e);
         await react("❌");
-        reply("An error occurred while communicating with OpenAI.");
+        reply("An error occurred while communicating with aayo.");
     }
 });
 
 cmd({
-    pattern: "deepseek",
-    alias: ["deep", "seekai"],
-    desc: "Chat with DeepSeek AI",
+    pattern: "blackbox",
+    alias: ["blk", "bbx"],
+    desc: "Chat with Blackbox AI",
     category: "ai",
     react: "🧠",
     filename: __filename
 },
 async (conn, mek, m, { from, args, q, reply, react }) => {
     try {
-        if (!q) return reply("Please provide a message for DeepSeek AI.\nExample: `.deepseek Hello`");
+        if (!q) return reply("Please provide a message for Blackboc AI.\nExample: `.Blackbox Hello`");
 
-        const apiUrl = `https://api.ryzendesu.vip/api/ai/deepseek?text=${encodeURIComponent(q)}`;
+        const apiUrl = `https://api.davidcyriltech.my.id/blackbox?q=${encodeURIComponent(q)}`;
         const { data } = await axios.get(apiUrl);
 
-        if (!data || !data.answer) {
+        if (!data || !data.response) {
             await react("❌");
-            return reply("DeepSeek AI failed to respond. Please try again later.");
+            return reply("Blackbox AI failed to respond. Please try again later.");
         }
 
-        await reply(`🧠 *DeepSeek AI Response:*\n\n${data.answer}`);
+        await reply(`🧠 *Blackbox AI Response:*\n\n${data.response}`);
         await react("✅");
     } catch (e) {
         console.error("Error in DeepSeek AI command:", e);
