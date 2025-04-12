@@ -1,0 +1,22 @@
+{
+    "joun":"https://github.com/sadiyamin/alexa-database/raw/refs/heads/main/Media/pakaya.m4a",
+    "nice":"https://github.com/sadiyamin/alexa-database/raw/refs/heads/main/Media/pakaya.m4a",
+    "by":"https://github.com/sadiyamin/alexa-database/raw/refs/heads/main/Media/pakaya.m4a",
+    "hehe":"https://github.com/VajiraTech/IZUMI-AUTO-VOICER/raw/main/Ponnaya(tbg).m4a",
+    "oka":"https://github.com/VajiraTech/IZUMI-AUTO-VOICER/raw/main/kawa.m4a",
+    "wow":"https://github.com/VajiraTech/IZUMI-AUTO-VOICER/raw/main/kellek%20oni.m4a",
+    "geo":"https://github.com/VajiraTech/IZUMI-AUTO-VOICER/raw/main/wesi(tbg).m4a",
+    "love":"https://github.com/sadiyamin/alexa-database/raw/refs/heads/main/Media/i_love_you.m4a",
+    "love you":"https://github.com/sadiyamin/alexa-database/raw/refs/heads/main/Media/i_love_you.m4a",
+    "ohh":"https://github.com/sadiyamin/alexa-database/raw/refs/heads/main/Media/i_love_you.m4a",
+    "dear":"https://github.com/sadiyamin/alexa-database/raw/refs/heads/main/Media/pakaya.m4a",
+    "sir":"https://github.com/sadiyamin/alexa-database/raw/refs/heads/main/Media/pakaya.m4a",  
+    "hm":"https://github.com/tharumin/Alexa_Voice/raw/refs/heads/main/hm.m4a",
+    "hmm":"https://github.com/tharumin/Alexa_Voice/raw/refs/heads/main/hm.m4a",
+    "aww":"https://github.com/tharumin/Alexa_Voice/raw/refs/heads/main/hm.m4a",
+    "oye":"https://github.com/tharumin/Alexa_Voice/raw/refs/heads/main/oya_kawada.m4a",
+    "ustad":"https://github.com/tharumin/Alexa_Voice/raw/refs/heads/main/oya_kawada.m4a",
+    "molning":"https://github.com/sadiyamin/alexa-database/raw/refs/heads/main/Media/good_morning.m4a",
+    "night":"https://github.com/sadiyamin/alexa-database/raw/refs/heads/main/Media/good_night.m4a",
+    "good night":"https://github.com/sadiyamin/alexa-database/raw/refs/heads/main/Media/good_night.m4a"
+}
