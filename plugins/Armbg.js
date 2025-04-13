@@ -22,7 +22,7 @@ cmd({
   category: "utility",
   use: ".rmbg [reply to image]",
   filename: __filename
-}, async (conn, client, message, { reply, quoted }) => {
+}, async (conn, mek, client, message, { reply, quoted }) => {
   try {
     // Check if quoted message exists and has media
     const quotedMsg = quoted || message;
