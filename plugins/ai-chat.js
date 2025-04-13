@@ -60,9 +60,9 @@ async (conn, mek, m, { from, args, q, reply, react }) => {
 });
 
 cmd({
-    pattern: "blackbox",
-    alias: ["blk", "bbx"],
-    desc: "Chat with Blackbox AI",
+    pattern: "deepseek",
+    alias: ["dipsik", "deep"],
+    desc: "Chat with deepseek AI",
     category: "ai",
     react: "🧠",
     filename: __filename
@@ -71,15 +71,15 @@ async (conn, mek, m, { from, args, q, reply, react }) => {
     try {
         if (!q) return reply("Please provide a message for Blackboc AI.\nExample: `.Blackbox Hello`");
 
-        const apiUrl = `https://api.davidcyriltech.my.id/blackbox?q=${encodeURIComponent(q)}`;
+        const apiUrl = `https://apis.davidcyriltech.my.id/ai/deepseek-v3?text=${encodeURIComponent(q)}`;
         const { data } = await axios.get(apiUrl);
 
         if (!data || !data.response) {
             await react("❌");
-            return reply("Blackbox AI failed to respond. Please try again later.");
+            return reply("Deepseek AI failed to respond. Please try again later.");
         }
 
-        await reply(`🧠 *Blackbox AI Response:*\n\n${data.response}`);
+        await reply(`🧠 *Deepseek AI Response:*\n\n${data.response}`);
         await react("✅");
     } catch (e) {
         console.error("Error in DeepSeek AI command:", e);
