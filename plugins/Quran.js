@@ -42,7 +42,7 @@ cmd({
 
     let json = await res.json();
 
-    let translatedTafsirUrdu = await translate(json.data.tafsir.id, { to: 'ur', autoCorrect: true });
+    let translatedTafsirArabic = await translate(json.data.tafsir.id, { to: 'ar', autoCorrect: true });
 
     let translatedTafsirEnglish = await translate(json.data.tafsir.id, { to: 'en', autoCorrect: true });
 
@@ -51,7 +51,7 @@ cmd({
 📖 *Surah ${json.data.number}: ${json.data.asma.ar.long} (${json.data.asma.en.long})*\n
 💫Type: ${json.data.type.en}\n
 ✅Number of verses: ${json.data.ayahCount}\n
-⚡🔮 *Explanation (Urdu):*\n
+⚡🔮 *Explanation (Arabic):*\n
 ${translatedTafsirUrdu.text}\n
 ⚡🔮 *Explanation (English):*\n
 ${translatedTafsirEnglish.text}`;
