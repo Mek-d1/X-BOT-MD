@@ -52,7 +52,7 @@ cmd({
 💫Type: ${json.data.type.en}\n
 ✅Number of verses: ${json.data.ayahCount}\n
 ⚡🔮 *Explanation (Arabic):*\n
-${translatedTafsirUrdu.text}\n
+${translatedTafsirArabic.text}\n
 ⚡🔮 *Explanation (English):*\n
 ${translatedTafsirEnglish.text}`;
 
