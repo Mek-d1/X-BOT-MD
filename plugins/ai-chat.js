@@ -69,7 +69,7 @@ cmd({
 },
 async (conn, mek, m, { from, args, q, reply, react }) => {
     try {
-        if (!q) return reply("Please provide a message for Blackboc AI.\nExample: `.Blackbox Hello`");
+        if (!q) return reply("Please provide a message for Deepseek AI.\nExample: `.Deepseek Hello`");
 
         const apiUrl = `https://apis.davidcyriltech.my.id/ai/deepseek-v3?text=${encodeURIComponent(q)}`;
         const { data } = await axios.get(apiUrl);
