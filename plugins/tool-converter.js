@@ -3,7 +3,7 @@ const stickerConverter = require('../data/sticker-converter');
 const { cmd } = require('../command');
 
 cmd({
-    pattern: 'convert',
+    pattern: 'toimg',
     alias: ['sticker2img', 'stoimg', 'stickertoimage', 's2i'],
     desc: 'Convert stickers to images',
     category: 'convert',
