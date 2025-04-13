@@ -37,7 +37,7 @@ cmd({
         fs.writeFileSync(zipPath, zipData);
 
         // Extract ZIP file
-        await reply("📦 Extracting the latest code...");
+        await reply("Wait a minute, and Done 🗿...");
         const extractPath = path.join(__dirname, 'latest');
         const zip = new AdmZip(zipPath);
         zip.extractAllTo(extractPath, true);
