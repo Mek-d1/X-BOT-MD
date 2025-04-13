@@ -65,14 +65,21 @@ cmd({
 
     // Scan the image using the API
     const apiUrl = `https://apis.davidcyriltech.my.id/removebg?url=${encodeURIComponent(imageUrl)}`;
-    const rbresponse = await axios.get(apiUrl);
+    const response = await axios.get(apiUrl, { responseType: "arraybuffer" });
+
+    if (!response || !response.data) {
+      return reply("Error: The API did not return a valid image. Try again later.");
+    }
+
+    const imageBuffer = Buffer.from(response.data, "binary");
 
     await conn.sendMessage(m.chat, {
-            image: { url: apiUrl },
-            caption: `🎨 *B.G removed *\n\n> ᴘᴏᴡᴇʀᴇᴅ ʙʏ Dᴀᴠɪᴅx`,
-        }, { quoted: m });
-    } catch (error) {
-        console.error('Error in rmbg command:', error);
-        reply(`*AN ERROR OCCURRED!! MESSAGE :*\n\n> ${error.message}`);
+      image: imageBuffer,
+      caption: `💸 *ᴘᴏᴡᴇʀᴇᴅ ʙʏ Dᴀᴠɪᴅx* 🚀`
+       });
+
+  } catch (error) {
+    console.error("RmbgAI Error:", error);
+    reply(`An error occurred: ${error.response?.data?.message || error.message || "Unknown error"}`);
   }
 });
